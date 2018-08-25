@@ -1,0 +1,79 @@
+#navbarSupportedContent {
+  right: 0;
+  position: absolute;
+  padding-right: 50px;
+}
+
+#navbarNav{
+  display:flex;flex-direction: row-reverse
+}
+#logo {
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+    padding-left: 1em;padding-right: 1em;
+}
+#navbarNav a{
+  margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+}
+body{
+  color: #777;
+    background-image: url("images/Grey-Wallpapers-HD-download-desktop.jpg")!important;
+    margin-bottom: 50px;
+    min-height: calc(100vh - 70px);
+    padding-bottom: 120px;
+}
+nav{
+  background-color: #fff
+}
+#main-container{
+  background-color: #fff;
+  padding: 50px;
+}
+h1{
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+    color: #4aaaa5 !important;
+    font-family: Georgia, Times, "Times New Roman", serif !important;
+    font-weight: 700 !important;
+}
+footer{
+  color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+    height: 70px;
+    bottom: 0;
+    position: fixed;
+    width:100%;
+
+}
+
+a .nav-item:hover {
+  color: purple;
+}
+
+img{
+  max-width: 100%;
+  float:left;
+}
+.main-section{
+  clear: both;
+  padding: 4em;
+}
+.work
+{
+  padding-top: 80px;
+  width:300px;
+  height:300px;
+}
