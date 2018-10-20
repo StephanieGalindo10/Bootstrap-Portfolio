@@ -16,7 +16,7 @@
     color: #fff;
     text-align: center;
     text-decoration: none;
-    background:slategray;
+   
     padding-left: 1em;padding-right: 1em;
 }
 #navbarNav a{
@@ -26,10 +26,11 @@
 }
 body{
   color: #777;
-    background-image: url("images/Grey-Wallpapers-HD-download-desktop.jpg")!important;
+    background-image: url("images/backgroundexample.png")!important;
     margin-bottom: 50px;
     min-height: calc(100vh - 70px);
     padding-bottom: 120px;
+    position: relative;
 }
 nav{
   background-color: #fff
@@ -54,7 +55,7 @@ footer{
     border-top: 8px solid palevioletred;
     height: 70px;
     bottom: 0;
-    position: fixed;
+    position: absolute;
     width:100%;
 
 }
@@ -65,7 +66,7 @@ a .nav-item:hover {
 
 img{
   max-width: 100%;
-  float:left;
+  height:250px;
 }
 .main-section{
   clear: both;
@@ -73,10 +74,59 @@ img{
 }
 .work
 {
-  padding-top: 80px;
-  width:300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   
+}
+.row {
+  margin-top:30px;
+}
+
+#twilight {
+  padding-top:30px;
+  background-image: url("images/Twilight Zone Theme Phychic Game.png");
+  height: 340px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+
+}
 
 
-  
+#crystal {
+  padding-top:30px;
+  background-image: url("images/Crytsal Game .png");
+  height: 340px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+}
+
+#harry {
+  padding-top:30px;
+  background-image: url("images/Harry Potter Trivia.png");
+  height: 340px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+}
+
+#train {
+  padding-top:30px;
+  background-image: url("images/Train Station.png");
+  height: 340px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+}
+
+
+#pokemon {
+  padding-top:30px;
+  background-image: url("images/Pokemon Gif.png");
+  height: 340px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
 }
