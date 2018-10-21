@@ -1,4 +1,5 @@
 #navbarSupportedContent {
+
   right: 0;
   position: absolute;
   padding-right: 50px;
@@ -130,3 +131,7 @@ img{
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; 
 }
+
+
+
+
