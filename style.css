@@ -26,7 +26,7 @@
 }
 body{
   color: #777;
-    background-image: url("images/backgroundexample.png");
+    background-image: url("images/imagenew.jpg");
     margin-bottom: 50px;
     min-height: calc(100vh - 70px);
     padding-bottom: 120px;
@@ -52,7 +52,7 @@ footer{
   color: #ccc;
     text-align: center;
     background: #666;
-    border-top: 8px solid palevioletred;
+    border-top: 8px solid rgb(52, 134, 184);
     height: 70px;
     bottom: 0;
     position: absolute;
