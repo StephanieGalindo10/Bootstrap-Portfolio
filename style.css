@@ -52,9 +52,9 @@ h1{
 footer{
   color: #ccc;
     text-align: center;
-    background: #666;
+    background: rgb(35, 53, 65);
     border-top: 8px solid rgb(52, 134, 184);
-    height: 70px;
+    height: 190px;
     bottom: 0;
     position: absolute;
     width:100%;
@@ -82,6 +82,16 @@ img{
 }
 .row {
   margin-top:30px;
+}
+
+
+input[type=text], input[type=submit] {
+  width: 70%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
 
 #twilight {
