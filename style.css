@@ -54,7 +54,7 @@ footer{
     text-align: center;
     background: rgb(35, 53, 65);
     border-top: 8px solid rgb(52, 134, 184);
-    height: 190px;
+    height: 160px;
     bottom: 0;
     position: absolute;
     width:100%;
@@ -151,7 +151,7 @@ input[type=submit] {
 }
 #SpeakIt {
   padding-top:30px;
-  background-image: url("images/Stephanie.jpg");
+  background-image: url("images/SpeakIt.png");
   height: 340px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
