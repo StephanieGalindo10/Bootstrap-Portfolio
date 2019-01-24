@@ -59,12 +59,7 @@
         keyboardNav: true,
       });
 
-    /* Counter
-    ========================================================*/
-    $('.counterUp').counterUp({
-     delay: 10,
-     time: 1000
-    });
+    
 
 
     /* Back Top Link active
