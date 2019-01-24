@@ -1,8 +1,4 @@
-/*!
- * SlickNav Responsive Mobile Menu v1.0.3
- * (c) 2015 Josh Cope
- * licensed under MIT
- */
+
 .slicknav_btn {
   cursor: pointer;
   display: block;
@@ -59,7 +55,7 @@
   .slicknav_nav li:not(:first-child){
   }
   .slicknav_nav .slicknav_arrow {
-    background: #ededed none repeat scroll 0 0;
+    background: #32b311 none repeat scroll 0 0;
     float: right;
     text-align: center;
     width: 35px;
@@ -84,14 +80,14 @@
   box-sizing: border-box;
 }
 .slicknav_menu ul{
-  background: #fff;
+  background: rgb(202, 50, 50);
 }
   .slicknav_menu * {
     box-sizing: border-box; }
   .slicknav_menu .slicknav_menutxt {
-    color: #fff;
+    color: rgb(13, 26, 202);
     font-weight: bold;
-    text-shadow: 0 1px 3px #000; }
+    text-shadow: 0 1px 3px rgb(175, 190, 35); }
 
 .slicknav_btn {
   border: 1px solid;
@@ -104,7 +100,7 @@
 }
 
 .slicknav_nav {
-  color: #fff;
+  color: rgb(167, 29, 29);
   font-size: 0.875em;
   list-style: outside none none;
   margin: 0;
@@ -135,7 +131,7 @@
     margin: 0; }
 
 .slicknav_brand {
-  color: #fff;
+  color:black;
   font-size: 18px;
   line-height: 30px;
   padding: 7px 12px;
