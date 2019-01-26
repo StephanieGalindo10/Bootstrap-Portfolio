@@ -692,7 +692,7 @@ a.back-to-top:hover, a.back-to-top:focus {
     display: block;
   }
   .slicknav_nav .active a {
-    background: #E91E63;
+    background: rgb(4, 3, 61);
     color: #fff;
   }
   .slicknav_nav a:hover,
@@ -1036,20 +1036,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .list-unstyled li {
-  color: #d9534f;
+  color: #082b4b;
 }
 
-#conatiner-map {
-  margin-top: 30px;
-  text-align: center;
-  background-color: #fff;
-  height: 370px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  z-index: 101;
-  width: 100%;
-}
 
 /* Footer Area Start */
 .footer-area {
