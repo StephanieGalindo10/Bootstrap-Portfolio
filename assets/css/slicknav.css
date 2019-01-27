@@ -55,7 +55,7 @@
   .slicknav_nav li:not(:first-child){
   }
   .slicknav_nav .slicknav_arrow {
-    background: #32b311 none repeat scroll 0 0;
+    background: #117ab3 none repeat scroll 0 0;
     float: right;
     text-align: center;
     width: 35px;
@@ -80,14 +80,14 @@
   box-sizing: border-box;
 }
 .slicknav_menu ul{
-  background: rgb(202, 50, 50);
+  background: rgb(9, 145, 186);
 }
   .slicknav_menu * {
     box-sizing: border-box; }
   .slicknav_menu .slicknav_menutxt {
     color: rgb(13, 26, 202);
     font-weight: bold;
-    text-shadow: 0 1px 3px rgb(175, 190, 35); }
+    text-shadow: 0 1px 3px rgb(255, 183, 0); }
 
 .slicknav_btn {
   border: 1px solid;
@@ -100,7 +100,7 @@
 }
 
 .slicknav_nav {
-  color: rgb(167, 29, 29);
+  color: rgb(24, 178, 213);
   font-size: 0.875em;
   list-style: outside none none;
   margin: 0;

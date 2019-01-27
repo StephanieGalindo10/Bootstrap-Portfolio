@@ -73,14 +73,14 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	/* https://bugzilla.mozilla.org/show_bug.cgi?id=308801 */
+	
 }
 .nivo-lightbox-error {
 	display: table;
 	text-align: center;
 	width: 100%;
 	height: 100%;
-	color: rgb(236, 20, 20);
+	color: rgb(14, 11, 11);
 	text-shadow: 0 1px 1px #000;
 }
 .nivo-lightbox-error p {

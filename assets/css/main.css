@@ -12,7 +12,7 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-font-smoothing: subpixel-antialiased;
-  color: #666;
+  color: rgb(29, 1, 1);
   line-height: 25px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -369,7 +369,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .counter-section .counter .counterUp {
-  color: rgb(119, 12, 12);
+  color: rgb(255, 145, 0);
   font-size: 42px;
   margin-top: 15px;
   font-weight: 700;
@@ -630,7 +630,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 .dropdown .dropdown-item:focus,
 .dropdown .dropdown-item:hover,
 .dropdown .dropdown-item.active {
-  color: #014350;
+  color: #c3ff00;
 }
 
 .dropdown-item.active, .dropdown-item:active {
@@ -643,7 +643,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .slicknav_btn {
-  border-color: #02303a;
+  border-color: #ffd000;
 }
 
 .slicknav_menu .slicknav_icon-bar {
@@ -702,7 +702,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 
 .hero-area-bg {
-  background-image: url(../img/gallery/backgroundimagesjs.gif)  no-repeat;
+  background-image: url(../img/background/javascriptbackground.gif)  no-repeat;
   background-size: cover;
 }
 
@@ -718,8 +718,13 @@ a.back-to-top:hover, a.back-to-top:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #0c0808;
-  opacity: 0.6;
+  /* background: #0c0808; */
+  background: url(../img/background/javascriptbackground.gif)  no-repeat;
+  background-size: cover;
+  opacity: 0.4;
+  filter: alpha(opacity=50);
+
+  opacity: 0.2;
 }
 
 #hero-area .contents {
@@ -731,7 +736,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #hero-area .contents .head-title {
-  color: #fff;
+  color: rgb(1, 26, 37);
   font-size: 80px;
   letter-spacing: 10px;
   text-transform: uppercase;
@@ -978,6 +983,10 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .contact-form-area h2 {
   font-size: 18px;
   text-transform: uppercase;
+}
+.center {
+  text-align: center;
+  border: 3px solid rgb(0, 125, 156);
 }
 
 .footer-right-contact {
