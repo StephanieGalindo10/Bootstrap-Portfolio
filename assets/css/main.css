@@ -99,7 +99,7 @@ ul li, ol li {
 }
 
 .section-title {
-  color: #252525;
+  color: #100b00;
   font-size: 38px;
   text-align: center;
   letter-spacing: 1px;
@@ -165,7 +165,7 @@ ul li, ol li {
 .btn-border:hover {
   border: 1px solid rgb(255, 204, 0);
   color: #fff;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(119, 163, 228, 0.2);
 }
 
 .btn-lg {
@@ -192,8 +192,8 @@ button:focus {
 }
 
 .social-icon li a {
-  color: #000;
-  background: rgb(255, 225, 0);
+  color: rgb(255, 225, 0);
+  background: rgb(36, 36, 31);
   width: 35px;
   height: 35px;
   line-height: 38px;
@@ -217,7 +217,7 @@ button:focus {
 }
 
 .social-icon li .instagram:hover {
-  background: #D6274D;
+  background: rgb(2, 126, 235);
 }
 
 .social-icon li .linkedin:hover {
@@ -225,7 +225,7 @@ button:focus {
 }
 
 .social-icon li .google:hover {
-  background: rgb(237, 28, 17);
+  background: rgb(15, 120, 180);
 }
 
 /* ScrollToTop */
@@ -286,7 +286,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 #about .img-thumb img {
   border: 8px solid #fff;
-  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 30px rgba(255, 204, 0, 0.2);
 }
 
 .profile-wrapper {
@@ -309,7 +309,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .about-profile .pro-title {
   font-weight: 700;
-  color: #040404;
+  color: #eed960;
   position: relative;
   width: 120px;
   display: inline-block;
@@ -319,7 +319,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 .about-profile .pro-title:after {
   position: absolute;
   content: ':';
-  color: #040404;
+  color: #ffe100;
   font-size: 14px;
   left: 77px;
 }
@@ -343,7 +343,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(255, 217, 0, 0.5);
 }
 
 .counter-section .counter {
@@ -472,7 +472,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   animation-fill-mode: both;
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
-  background: rgb(206, 230, 255) !important;
+  background: rgb(0, 3, 10) !important;
 }
 
 .top-nav-collapse .navbar-brand {
@@ -647,7 +647,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .slicknav_menu .slicknav_icon-bar {
-  background: #06313a;
+  background: #edd900;
 }
 
 /* only small tablets */
@@ -688,13 +688,13 @@ a.back-to-top:hover, a.back-to-top:focus {
     display: block;
   }
   .slicknav_nav .active a {
-    background: rgb(4, 3, 61);
+    background: rgb(254, 231, 231);
     color: #fff;
   }
   .slicknav_nav a:hover,
   .slicknav_nav a:focus,
   .slicknav_nav .active {
-    color: #ff9100;
+    color: #ff9101;
     outline: none;
     background: #f8f9fa;
   }
@@ -707,7 +707,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #hero-area {
-  color: rgb(2, 5, 31);
+  color: rgb(14, 11, 0);
   overflow: hidden;
   position: relative;
 }
@@ -736,7 +736,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #hero-area .contents .head-title {
-  color: rgb(1, 26, 37);
+  color: rgb(11, 7, 0);
   font-size: 80px;
   letter-spacing: 10px;
   text-transform: uppercase;
@@ -799,14 +799,14 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .controls .active {
   color: #00b7d7 !important;
-  border-color: #ffe100;
+  border-color: #ffb700;
   background: transparent;
 }
 
 .controls .btn {
   text-transform: uppercase;
   margin: 2px;
-  color: rgb(245, 196, 0);
+  color: rgb(255, 200, 0);
 }
 
 .controls:hover {
@@ -826,7 +826,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 .shot-item {
   margin-right: 15px;
   border-radius: 4px;
-  background: rgb(255, 217, 0);
+  background: rgb(255, 204, 0);
   position: relative;
 }
 
@@ -840,7 +840,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   height: 100%;
   left: 0;
   top: 0;
-  background: rgba(255, 204, 0, 0.6);
+  background: rgba(0, 0, 0, 0.6);
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -858,7 +858,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   height: 42px;
   width: 42px;
   line-height: 42px;
-  color: #00b3ff;
+  color: #ffe100;
   left: 50%;
   margin-left: -24px;
   margin-top: -24px;
@@ -871,7 +871,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  background: rgb(255, 204, 0);
+  background: rgb(2, 8, 28);
   border-radius: 4px;
 }
 
@@ -879,7 +879,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   position: absolute;
   left: 45%;
   top: 50%;
-  color: rgb(41, 48, 52);
+  color: rgb(50, 89, 111);
 }
 
 .overlay .link {
@@ -927,7 +927,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   display: block;
   margin: 0 auto;
   height: 48px;
-  color: #242525;
+  color: #518f8f;
 }
 
 .services-item .services-content h3 {
