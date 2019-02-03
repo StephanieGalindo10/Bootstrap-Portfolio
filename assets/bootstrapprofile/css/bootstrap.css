@@ -1736,7 +1736,7 @@ pre code {
 }
 
 .table-dark.table-hover tbody tr:hover {
-  background-color: rgba(255, 255, 255, 0.075);
+  background-color: rgb(240, 229, 229);
 }
 
 @media (max-width: 575.98px) {
@@ -1809,7 +1809,7 @@ pre code {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
-  color: #495057;
+  color: #dce4ed;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -1829,7 +1829,7 @@ pre code {
 }
 
 .form-control:focus {
-  color: #495057;
+  color: #d1e4f7;
   background-color: #fff;
   border-color: #80bdff;
   outline: 0;
@@ -2004,7 +2004,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 }
 
 .form-check-input:disabled ~ .form-check-label {
-  color: #6c757d;
+  color: #f0f8ff;
 }
 
 .form-check-label {
@@ -2415,8 +2415,8 @@ fieldset:disabled a.btn {
 .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #545b62;
-  border-color: #4e555b;
+  background-color: #d3e9ff;
+  border-color: #d2e4f4;
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
