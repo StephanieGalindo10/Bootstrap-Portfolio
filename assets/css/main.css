@@ -975,7 +975,13 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .contact-form-area {
-  background: #fff;
+  background:url(../img/background/geo-fencing.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.1;
+  filter: alpha(opacity=10);
   box-shadow: 0 0 30px #ededed;
   padding: 60px 40px;
 }
